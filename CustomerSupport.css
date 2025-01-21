@@ -1,0 +1,40 @@
+.customerSupport {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: #333;
+  }
+  
+  h1 {
+    color: #555;
+    font-size: 24px;
+  }
+  
+  .supportOptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .option {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center; /* Centering the content */
+  }
+  
+  .option img {
+    width: 50px; /* Adjust size as needed */
+    margin-bottom: 10px;
+  }
+  
+  .option h2 {
+    color: #0073bb;
+    font-size: 18px;
+  }
+  
+  .option p {
+    margin: 10px 0;
+  }

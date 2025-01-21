@@ -1,0 +1,80 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Modern font */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text color */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Darker headings */
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #3A3B3C; /* Dark background for navbar */
+  }
+  
+  .navbar-brand {
+    color: #FFD700; /* Gold color for brand */
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  
+  .nav-link {
+    color: #E0E0E0; /* Light gray links */
+  }
+  
+  .nav-link:hover {
+    color: #FFD700; /* Gold on hover */
+  }
+  
+  /* Main content */
+  .container {
+    max-width: 1200px; /* Max width for content */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Add padding around the container */
+  }
+  
+  /* Product styles */
+  .product-card {
+    background-color: #FFFFFF; /* White background for product cards */
+    border: 1px solid #D1D1D1; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 15px; /* Margin around cards */
+    padding: 15px; /* Padding inside cards */
+    transition: transform 0.3s; /* Transition effect */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .product-image {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+    border-radius: 5px; /* Rounded corners for images */
+  }
+  
+  .product-title {
+    font-weight: bold;
+    margin: 10px 0; /* Space above and below titles */
+  }
+  
+  .product-price {
+    color: #28a745; /* Green for prices */
+    font-weight: bold;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #3A3B3C; /* Dark background for footer */
+    color: #E0E0E0; /* Light gray text */
+    text-align: center; /* Centered text */
+    padding: 20px; /* Padding around footer */
+    position: relative; /* Positioned relative for layout */
+    bottom: 0; /* Align to bottom */
+    width: 100%; /* Full width */
+  }
+  

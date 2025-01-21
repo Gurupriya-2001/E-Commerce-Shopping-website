@@ -1,0 +1,48 @@
+/* General Modal Styling */
+.modal-header-custom {
+    background-color: #0044cc;
+    color: #fff;
+    border-bottom: 2px solid #00c6ff;
+  }
+  
+  .modal-body-custom {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .modal-footer-custom {
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Product Image Styling */
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product Details Styling */
+  .product-details p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-details strong {
+    color: #0044cc;
+  }
+  
+  /* Button Styling */
+  .modal-footer-custom .btn-secondary {
+    background-color: #0044cc;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-footer-custom .btn-secondary:hover {
+    background-color: #00c6ff;
+  }
+  

@@ -1,0 +1,107 @@
+/* Navbar Styles */
+.navbar {
+  background-color: #003366; /* Dark blue background */
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-link {
+  color: #ffffff;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* Gold on hover */
+}
+
+.dropdown-menu {
+  background-color: #ffffff; /* White background for dropdown */
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  z-index: 1000; /* Ensure dropdown is on top */
+}
+
+.dropdown-item {
+  color: #333; /* Dark text color */
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: block; /* Full width */
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1; /* Light gray on hover */
+}
+
+.dropdown-divider {
+  margin: 0.5rem 0; /* Spacing for divider */
+}
+
+/* Search Bar Styles */
+.search-bar {
+  position: relative;
+}
+
+.search-input {
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  width: 200px; /* Fixed width */
+}
+
+.search-button {
+  position: absolute;
+  right: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #ffffff; /* White background for sidebar */
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  z-index: 1000; /* Ensure sidebar is on top */
+}
+
+.close-sidebar {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.sidebar-item {
+  display: block;
+  padding: 0.5rem 0;
+  color: #333; /* Dark text color */
+  text-decoration: none;
+}
+
+.sidebar-item:hover {
+  background-color: #f1f1f1; /* Light gray on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+  }
+
+  .search-bar {
+      width: 100%; /* Full width on smaller screens */
+  }
+}

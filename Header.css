@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Container */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #0044cc 0%, #00c6ff 100%);
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the header content */
+.header-content {
+  margin-bottom: 20px;
+}
+
+/* Styling for the header title */
+.header-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: fadeInDown 1s;
+}
+
+/* Styling for the header subtitle */
+.header-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-top: 10px;
+  animation: fadeInUp 1s;
+}
+
+/* Container for header sections */
+.header-sections {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Styling for each header section */
+.header-section {
+  margin: 0 20px;
+  cursor: pointer;
+  padding: 15px 25px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+/* Hover effects for header sections */
+.header-section:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffd700; /* Gold on hover */
+}
+
+/* Styling for alert messages */
+.alert-message {
+  margin-top: 20px;
+  color: #f39c12; /* Orange color for alert messages */
+  font-weight: bold;
+  animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+/* Keyframes for animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

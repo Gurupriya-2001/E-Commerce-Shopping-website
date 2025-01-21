@@ -1,0 +1,104 @@
+.cart-container {
+  background-color: #f7f7f7; /* Lighter background color */
+  border-radius: 12px; /* Increased border radius for a softer look */
+  padding: 30px; /* Increased padding for more whitespace */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box shadow for more depth */
+  max-width: 900px; /* Increased max width for more content */
+  margin: 40px auto; /* Increased margin for more whitespace */
+  border: 1px solid #ccc; /* Lighter border color */
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Increased margin bottom for more whitespace */
+  padding: 20px; /* Increased padding for more whitespace */
+  background-color: #fff; /* White background color */
+  border-radius: 10px; /* Increased border radius for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increased box shadow for more depth */
+}
+
+.cart-item-image {
+  width: 100px; /* Increased image width for more visibility */
+  height: 100px; /* Increased image height for more visibility */
+  object-fit: cover;
+  border-radius: 10px; /* Increased border radius for a softer look */
+  margin-right: 20px; /* Added margin right for more whitespace */
+}
+
+.cart-item-details {
+  flex-grow: 1;
+  margin-left: 20px; /* Increased margin left for more whitespace */
+}
+
+.cart-item-details h5 {
+  margin: 0;
+  font-size: 1.3em; /* Increased font size for more visibility */
+  color: #333;
+  font-weight: bold; /* Added font weight for more emphasis */
+}
+
+.cart-item-details p {
+  margin: 10px 0; /* Increased margin for more whitespace */
+  color: #666;
+  font-size: 1.1em; /* Increased font size for more visibility */
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin: 15px 0; /* Increased margin for more whitespace */
+}
+
+.quantity-controls button {
+  background-color: #337ab7; /* Changed button color to a more modern blue */
+  color: #fff;
+  border: none;
+  padding: 10px 20px; /* Increased padding for more whitespace */
+  border-radius: 10px; /* Increased border radius for a softer look */
+  margin: 0 10px; /* Increased margin for more whitespace */
+  cursor: pointer;
+  font-size: 1.2em; /* Increased font size for more visibility */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.quantity-controls button:hover {
+  background-color: #23527c; /* Changed hover color to a darker blue */
+  transform: scale(1.05);
+}
+
+.quantity-controls span {
+  margin: 0 15px; /* Increased margin for more whitespace */
+  font-size: 1.4em; /* Increased font size for more visibility */
+  min-width: 40px; /* Increased min width for more whitespace */
+  text-align: center;
+}
+
+.cart-total {
+  margin-top: 30px; /* Increased margin top for more whitespace */
+  font-size: 1.6em; /* Increased font size for more visibility */
+  color: #333;
+  text-align: right;
+  font-weight: bold; /* Added font weight for more emphasis */
+}
+
+.checkout-button {
+  display: block;
+  width: 100%;
+  padding: 20px; /* Increased padding for more whitespace */
+  background-color: #337ab7; /* Changed button color to a more modern blue */
+  color: #fff;
+  border: none;
+  border-radius: 10px; /* Increased border radius for a softer look */
+  cursor: pointer;
+  font-size: 1.4em; /* Increased font size for more visibility */
+  margin-top: 30px; /* Increased margin top for more whitespace */
+  transition: background-color 0.3s, transform 0.2s;
+  text-align: center;
+}
+
+.checkout-button:hover {
+  background-color: #23527c; /* Changed hover color to a darker blue */
+  transform: scale(1.05);
+}

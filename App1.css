@@ -1,0 +1,39 @@
+.divbtn{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #btn{
+    width: 100px;
+  }
+  #btn:hover{
+     
+     background-color:darkblue;
+  }
+  .text{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+  }
+  a{
+     text-decoration: none;
+  }
+  body{
+     background-color: lightskyblue;
+  }
+  .link{
+     margin-top: 10px;
+  }
+  
+  .guest{
+  
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  
+  }
+  

@@ -1,0 +1,20 @@
+.product-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.discount-badge {
+  background-color: #ff0000; /* Red background for discounts */
+  color: #fff; /* White text */
+  padding: 5px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
